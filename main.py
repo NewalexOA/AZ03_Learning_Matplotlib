@@ -30,4 +30,5 @@ if __name__ == "__main__":
     plt.ylabel('Количество')
     plt.grid(True)
     plt.hist(df['Цена'], bins=20)
+    plt.savefig('price_hist.png')
     plt.show()
